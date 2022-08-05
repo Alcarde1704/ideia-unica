@@ -1,9 +1,9 @@
 function tempo(request, response) {
 
-  const date = new Date();
+  const dynamicDate = new Date();
 
   response.json({
-    date: dynamic.toDateString()
+    date: dynamicDate.toDateString()
   })
 }
 
